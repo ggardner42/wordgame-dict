@@ -1,0 +1,27 @@
+# allowlist.txt - words build_dictionary.py always keeps, even if a junk rule
+# would reject them or the dictionary lacks them. One word per line; add a
+# count after the word ("word 5000000") to set its frequency yourself, or leave
+# it off to use the word's own count (or the lowest count in the frequency file).
+# The blocklist wins if a word is on both lists.
+# Lines starting with # are comments.
+
+# Real words that the Roman-numeral rule would otherwise reject:
+mix
+
+# Add real words you find missing here. The report file lists the most common
+# words that the frequency file has but your dictionary does not.
+abaci
+abacuses
+abasing
+abash
+abashes
+abashing
+
+asian
+canadian
+indian
+spanish
+russian
+african
+hardcore
+italian
