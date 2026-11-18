@@ -24,6 +24,8 @@ You also need two data files, which are not included:
 - **A dictionary**: one word per line. `/usr/share/dict/words` works. Hunspell-style `word/FLAGS` lines are accepted too. Several dictionary files can be given.
 - **A frequency file**: lines of `word<whitespace>count`, such as `count_1w.txt` from Peter Norvig's [Natural Language Corpus Data](https://norvig.com/ngrams/) page. Lines starting with `#` are ignored.
 
+A good source of dictionaries and frequency lists, all under at most MIT License, can be found here: `https://github.com/BartMassey/wordlists.git`
+
 ## Quick start
 
 ```sh
